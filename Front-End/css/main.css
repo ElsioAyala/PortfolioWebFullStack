@@ -105,6 +105,15 @@ img.banner-img{
     object-fit:cover;
     border-color: #F0F2F5 !important;
 }
+.perfil-contacto{
+    cursor:pointer;
+}
+.perfil-contacto span:hover{
+    color: black;
+}
+.active-dark .perfil-contacto span:hover{
+    color: var(--dt-dark)
+}
 
 .column-perfil .card{
     margin-top: -65px;
