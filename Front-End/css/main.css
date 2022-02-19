@@ -65,7 +65,7 @@ body.active-dark{
 }
 
 .active-dark .perfil-contacto span:hover{
-    color: var(--dt-dark)
+    color: #198754;
 }
 
 .active-dark .card {
@@ -119,6 +119,18 @@ img.banner-img{
     margin-top: -65px;
 }
 
+.nav-column .nav-item .active {
+    color: #198754 !important;
+   
+}
+
+.card[id]{
+    scroll-margin-top: 90px;
+}
+
+.nav-column .nav-item a:hover {
+    color: #198754 !important;
+}
 
 @media screen and (min-width: 1200px) {
     img.banner-img{

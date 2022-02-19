@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar main-nav-bar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar main-nav-bar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container-xl">
               <a class="navbar-brand" href="#"><img src="./Imagen/Logo-black.png" alt="Logo Argentina Programa" height="32px" class="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,22 +19,22 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Experiencia</a>
+                    <a class="nav-link active" aria-current="page" href="#experiencia">Experiencia</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Educación</a>
+                    <a class="nav-link" href="#educacion">Educación</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                   </li>
                  
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Proyectos</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
                   </li>
                 </ul>
                 
@@ -43,7 +43,7 @@
                         <span class="d-flex justify-content-center align-items-center" style="width: 30px; height: 30px"><i class="fa-solid fa-sun" ></i></span>
                         <span class="d-flex justify-content-center align-items-center" style="width: 30px; height: 30px"><i class="fa-solid fa-moon"></i></span>
                     </button>
-                    <button class="btn btn-outline-success" type="submit">Iniciar sesion</button>
+                    <button class="btn btn-success" type="submit">Iniciar sesion</button>
                 </div>
                 
               
@@ -54,7 +54,7 @@
     </header>
     <main>
 
-      <div class="container-fluit p-0 banner position-relative">
+      <div class="container-fluit p-0 banner">
         <img src="./Imagen/Banner.jpg" alt="Banner" class="banner-img" />
       </div>
 
@@ -64,7 +64,7 @@
           <div class="col-12 col-xl-4 column-perfil">
             <div class="row">
               <div class="col-12">
-                <div class="card flex-row flex-xl-column border-0 bg-transparent "> 
+                <div class="card flex-row flex-xl-column border-0 bg-transparent"> 
             
                   <img src="./Imagen/Perfil.jpg" class="img-responsive rounded-circle perfil-img border border-5 mt-xl-4 ms-xl-auto me-xl-auto"alt="Foto de Perfil img-fluid">
                 
@@ -96,25 +96,26 @@
             </div>
           </div>
           <div class="col-12 col-xl-6">
-            <div class="card mt-4 mt-xl-2">
+            <div class="card mt-4 mt-xl-2" id="experiencia">
               <div class="card-body">
                 <h3 class="card-title">Experiencia</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa, blanditiis exercitationem animi consectetur distinctio ullam inventore tenetur praesentium dicta accusantium sequi aspernatur iste ducimus laborum! Excepturi, non dicta. Laborum.</span><span>Omnis vel nulla nam voluptate ducimus rerum neque, maiores dicta voluptatum cum aliquam, quos recusandae at quidem ratione odio corporis asperiores minima molestias voluptatem sequi? Ipsam sed ipsum in excepturi.</span><span>Nam, inventore ex ducimus excepturi qui repellendus laborum! Dignissimos, aliquam obcaecati! Magnam, placeat accusantium beatae corrupti ipsa consequatur ab eius facilis cumque eligendi dignissimos unde fugit impedit vitae est inventore?</span><span>Reprehenderit sapiente, illum, facere accusamus perspiciatis, consequatur voluptatibus facilis similique quo esse aut cum maiores? Aut voluptatum error cupiditate delectus velit facere nihil modi harum, quo maiores accusamus neque. Cupiditate.</span><span>Veniam iste esse recusandae aliquam et neque cupiditate earum eum ullam voluptatem illum, inventore ea reiciendis cumque, tempora explicabo alias! Accusamus voluptate explicabo est dignissimos hic ex eos maiores quisquam?</span><span>Natus quisquam facilis dolorem ipsa commodi voluptatum eligendi quia eum doloremque. Similique quae provident eligendi numquam exercitationem animi rerum. Nobis quidem aspernatur rerum deserunt sint ea esse dolorem maxime explicabo?</span><span>Est hic corporis sed consectetur optio autem accusantium vero, reiciendis saepe, distinctio fugiat quaerat maiores iure quasi animi molestias! Repellat, incidunt. Eaque accusantium amet beatae quos laboriosam dignissimos, quibusdam eius!</span></p>
               </div>
             </div>
-            <div class="card mt-4 border-0 shadow-sm rounded">
+            <div class="card mt-4 border-0 shadow-sm rounded" id="educacion">
               <div class="card-body">
                 <h3 class="card-title">Educación</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
-            <div class="card mt-4">
+            <div class="card mt-4" id="skills">
               <div class="card-body">
                 <h3 class="card-title">Skills</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
-            <div class="card mt-4">
+            <div class="card mt-4" id="proyectos">
               <div class="card-body">
                 <h3 class="card-title">Proyectos</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -122,18 +123,18 @@
             </div>
           </div>
           <div class="col-12 col-xl-2">
-            <ul class="nav flex-column">
+            <ul class="nav nav-column flex-column sticky-top">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Experiencia</a>
+                <a class="nav-link text-body active" aria-current="page" href="#experiencia">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Educación</a>
+                <a class="nav-link text-body" href="#educacion">Educación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link text-body" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link text-body" href="#proyectos">Proyectos</a>
               </li>
             </ul>
           </div>
