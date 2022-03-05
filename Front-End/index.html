@@ -11,9 +11,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar main-nav-bar navbar-expand-md navbar-light bg-light fixed-top">
+        <nav class="navbar main-nav-bar navbar-expand-md navbar-light bg-light fixed-top border-bottom">
             <div class="container-xl">
               <a class="navbar-brand" href="#"><img src="./Imagen/Logo-black.png" alt="Logo Argentina Programa" height="32px" class="logo"></a>
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -54,8 +55,9 @@
     </header>
     <main>
 
-      <div class="container-fluit p-0 banner">
+      <div class="container-fluit p-0 banner position-relative">
         <img src="./Imagen/Banner.jpg" alt="Banner" class="banner-img" />
+        <div class="edit-portada position-absolute rounded p-1 ps-3 pe-3"><i class="fa-solid fa-camera"></i></div>
       </div>
 
       <section class="container">
@@ -67,9 +69,10 @@
               <div class="sticky">
                 <div class="col-12">
                   <div class="card flex-column ms-md-4 ms-xl-0 flex-md-row flex-xl-column align-items-center align-items-md-start align-items-xl-center border-0 bg-transparent"> 
-              
-                    <img src="./Imagen/Perfil.jpg" class="img-responsive rounded-circle perfil-img border border-5 mt-xl-4 ms-xl-auto me-xl-auto"alt="Foto de Perfil img-fluid">
-                  
+                    <div class="img position-relative">
+                      <img src="./Imagen/Perfil.jpg" class="img-responsive rounded-circle perfil-img border border-5 mt-xl-4 ms-xl-auto me-xl-auto"alt="Foto de Perfil img-fluid">
+                      <div class="edit position-absolute d-flex justify-content-center align-items-center rounded-circle p-3"><i class="fa-solid fa-camera"></i></div>
+                    </div>
 
                   <div class="perfil-info ">
                     <div class="border-0 banner-bottom-card">
@@ -82,6 +85,7 @@
                             <span><i class="fa-brands fa-twitter pe-2"></i></span>
                             <span><i class="fa-brands fa-linkedin"></i></span>
                           </div>
+                          <div class="edit-perfil"><button type="button" class="btn btn-outline-success btn-sm"><i class="fa-solid fa-pen"></i> Editar perfil</button></div>
                       </div>
                     </div>
                   </div>
@@ -90,7 +94,7 @@
                 <div class="col-12">
                   <div class="card mt-4">
                     <div class="card-body">
-                      <h3 class="card-title">Acerca de</h3>
+                      <h3 class="card-title">Acerca de <button type="button" class="btn btn-outline-success btn-sm edit-presentacion ms-3 edit">Editar presentación</button></h3>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,35 +108,301 @@
             </div>
           </div>
           <div class="col-12 col-xl-6">
-            <div class="card mt-4 mt-xl-2" id="experiencia">
+            <section class="card mt-4 mt-xl-2" id="experiencia">
               <div class="card-body">
-                <h3 class="card-title">Experiencia</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa, blanditiis exercitationem animi consectetur distinctio ullam inventore tenetur praesentium dicta accusantium sequi aspernatur iste ducimus laborum! Excepturi, non dicta. Laborum.</span><span>Omnis vel nulla nam voluptate ducimus rerum neque, maiores dicta voluptatum cum aliquam, quos recusandae at quidem ratione odio corporis asperiores minima molestias voluptatem sequi? Ipsam sed ipsum in excepturi.</span><span>Nam, inventore ex ducimus excepturi qui repellendus laborum! Dignissimos, aliquam obcaecati! Magnam, placeat accusantium beatae corrupti ipsa consequatur ab eius facilis cumque eligendi dignissimos unde fugit impedit vitae est inventore?</span><span>Reprehenderit sapiente, illum, facere accusamus perspiciatis, consequatur voluptatibus facilis similique quo esse aut cum maiores? Aut voluptatum error cupiditate delectus velit facere nihil modi harum, quo maiores accusamus neque. Cupiditate.</span><span>Veniam iste esse recusandae aliquam et neque cupiditate earum eum ullam voluptatem illum, inventore ea reiciendis cumque, tempora explicabo alias! Accusamus voluptate explicabo est dignissimos hic ex eos maiores quisquam?</span><span>Natus quisquam facilis dolorem ipsa commodi voluptatum eligendi quia eum doloremque. Similique quae provident eligendi numquam exercitationem animi rerum. Nobis quidem aspernatur rerum deserunt sint ea esse dolorem maxime explicabo?</span><span>Est hic corporis sed consectetur optio autem accusantium vero, reiciendis saepe, distinctio fugiat quaerat maiores iure quasi animi molestias! Repellat, incidunt. Eaque accusantium amet beatae quos laboriosam dignissimos, quibusdam eius!</span></p>
-                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sequi, accusantium omnis distinctio aliquid recusandae fugiat doloribus ipsum eius, illum esse minima ipsa dignissimos voluptates nobis exercitationem dolor error est.</span><span>Et, porro eaque saepe optio nesciunt alias doloribus reiciendis ad repellat in ipsam voluptatem soluta molestias, minus dicta est dolorem ipsum. Error, provident eveniet necessitatibus alias numquam reprehenderit obcaecati! In.</span><span>Beatae iusto quae adipisci voluptas enim porro eveniet sunt cum pariatur deleniti repellendus eligendi, minus facere illo quos ullam cumque commodi? Exercitationem aspernatur dignissimos suscipit tenetur amet quis placeat perferendis.</span><span>Quasi laborum quas maiores debitis, aliquid assumenda nostrum? Nemo dignissimos aspernatur temporibus accusamus iusto repellendus aliquam ab dolores. Impedit quam autem, iste nam repellat voluptatibus suscipit recusandae a ipsum explicabo.</span><span>A, iure laborum minima nostrum illum molestiae eum nesciunt nisi sapiente numquam nemo fugiat ratione eaque quia fugit adipisci ex eveniet et. Adipisci amet suscipit laudantium a nulla. Optio, at!</span><span>Id repudiandae corporis magni consequatur, nisi minus debitis quis corrupti voluptates laudantium consequuntur, totam in quas magnam rerum voluptate enim tempora omnis nam, delectus qui quae commodi! Aspernatur, beatae tempora?</span><span>Aliquid, quam dolore quaerat, illo ea quia magni beatae, nobis quidem optio repellendus aut! Ducimus magni omnis, neque quasi tempora quisquam facere dolor doloremque voluptates deserunt odit praesentium aliquam perferendis.</span><span>Eveniet molestias voluptatum laudantium consectetur, tempore laborum, a aliquid quis ullam, eligendi incidunt esse iste qui porro pariatur quos libero? Quibusdam, eum dolore. Voluptate tempore unde veniam, excepturi perferendis ab?</span><span>Quos deleniti architecto ipsa similique id, officiis quidem cumque sapiente! Adipisci vel asperiores eius maxime vero doloribus fugit accusantium nisi unde dolor, reprehenderit, ducimus, reiciendis enim quo id iure dicta!</span><span>Sint aspernatur quae corrupti illum iste eum corporis dolorem non? A voluptates molestias doloribus, similique eum dolor vero repellat minima, cum veniam nihil culpa? Velit aut ullam beatae reiciendis atque!</span></p>
+                <h3 class="card-title d-flex ">Experiencia <button type="button" class="btn btn-outline-success btn-sm ms-3 edit">Añadir experiencia</button></h3>
+                <article class="row border-bottom m-lg-3">
+                  <div class="col-11">
+                    <div class="card mb-3 border-0" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-2">
+                          <img src="./Imagen/Qplus.png" class="img-fluid rounded-start pt-4" alt="...">
+                        </div>
+                        <div class="col-10">
+                          <div class="card-body ps-4">
+                            <h5 class="card-title">Front End Developer</h5>
+                            <p class="card-text mb-0">QPlus Software Solutions · Jornada completa.</p>
+                            <p class="card-text mb-0"><small class="text-muted">nov. 2020 - actualidad · 1 año 5 meses</small></p>
+                            <p class="card-text"><small class="text-muted">Córdoba, Argentina</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-1"> 
+                    <div class="dropdown pt-2 edit">
+                      <button class="btn float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                      </ul>
+                    </div>
+                  
+                  </div>
+
+                </article>
+                <article class="row border-bottom m-lg-3">
+                  <div class="col-11">
+                    <div class="card mb-3 border-0" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-2">
+                          <img src="./Imagen/G.jpg" class="img-fluid rounded-start pt-4" alt="...">
+                        </div>
+                        <div class="col-10">
+                          <div class="card-body ps-4">
+                            <h5 class="card-title">Front End Developer</h5>
+                            <p class="card-text mb-0">Globant · Jornada completa</p>
+                            <p class="card-text mb-0"><small class="text-muted">sept. 2019 - jun. 2021 · 1 año 10 meses</small></p>
+                            <p class="card-text"><small class="text-muted">Buenos Aires, Provincia de Buenos Aires, Argentina</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-1"> 
+                    <div class="dropdown pt-2 edit">
+                      <button class="btn float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                      </ul>
+                    </div>
+                  
+                  </div>
+
+                </article>
+                <article class="row border-bottom m-lg-3">
+                  <div class="col-11">
+                    <div class="card mb-3 border-0" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-2">
+                          <img src="./Imagen/mercado libre.jpg" class="img-fluid rounded-start pt-4" alt="...">
+                        </div>
+                        <div class="col-10">
+                          <div class="card-body ps-4">
+                            <h5 class="card-title">Curstomer Experience</h5>
+                            <p class="card-text mb-0">Mercado Libre</p>
+                            <p class="card-text mb-0"><small class="text-muted">jun. 2019 - sept. 2019 · 4 meses</small></p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-1"> 
+                    <div class="dropdown pt-2 edit">
+                      <button class="btn float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                      </ul>
+                    </div>
+                  
+                  </div>
+
+                </article>
               </div>
-            </div>
-            <div class="card mt-4 border-0 shadow-sm rounded" id="educacion">
+            </section>
+            <section class="card mt-4 border-0 shadow-sm rounded" id="educacion">
               <div class="card-body">
-                <h3 class="card-title">Educación</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, ea? Numquam quis earum officia sint dolorem, temporibus perspiciatis ipsam labore voluptate molestias, iste quidem cumque exercitationem fugiat id nemo alias?</span><span>In nihil eveniet ipsum eius corrupti. Magni quidem illo saepe laboriosam nostrum asperiores natus! Suscipit, accusamus, amet consequatur quas corrupti eligendi omnis unde, pariatur rem facere ut? Maiores, iusto harum!</span><span>Numquam eius ad quisquam itaque distinctio nesciunt corporis eligendi nam tempore exercitationem ullam qui animi eveniet, laboriosam ea, similique iste! Accusamus eius quo iure nemo accusantium cum. Voluptate, vel laudantium?</span><span>Suscipit iure repudiandae iste sint, blanditiis nostrum quidem dicta laborum sed! Dignissimos quas, enim porro explicabo aut nesciunt at ullam exercitationem est autem iste laborum vitae, natus officia quis corrupti.</span><span>Accusamus quod provident asperiores illum ab, culpa est officia quaerat harum facere eius cumque porro nisi nihil. Nisi optio eos, numquam quas fugiat nihil blanditiis, cum aperiam sint commodi ullam!</span><span>Doloremque adipisci quibusdam quidem quos amet pariatur nam, molestias in nostrum optio eius doloribus impedit vitae blanditiis natus provident, cum rem modi veniam qui! Fugit est nesciunt harum delectus veritatis?</span><span>Eius quis a, minima aliquid perspiciatis nisi earum officiis reprehenderit, molestias iure tenetur voluptate dicta animi? Fugit culpa, quidem natus animi odio porro vitae ex numquam saepe eligendi molestiae quas?</span><span>Doloremque necessitatibus consectetur iure rerum at unde alias vel, corrupti mollitia voluptatum error sint rem dolore amet, excepturi, repellendus accusamus aliquid autem aliquam. Quasi, blanditiis minima. Rerum officia cupiditate deserunt?</span><span>Sed, molestias qui architecto fuga illum placeat est iusto sunt? Unde fugit soluta laborum quibusdam nulla nemo, magni culpa eos explicabo praesentium deserunt voluptatibus, veniam consequuntur corrupti ab cum enim.</span><span>Rem omnis qui enim quibusdam veniam amet explicabo necessitatibus excepturi ducimus inventore nam aspernatur sapiente dolorem voluptate veritatis quae, voluptates odio dolorum, consequatur rerum a dolores magnam. Assumenda, ex harum.</span></p>
+                <h3 class="card-title">Educación <button type="button" class="btn btn-outline-success btn-sm ms-3 edit">Añadir educación</button></h3>
+                <article class="row border-bottom m-lg-3">
+                  <div class="col-11">
+                    <div class="card mb-3 border-0" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-2">
+                          <img src="./Imagen/Logo-black.png" class="img-fluid rounded-start pt-4" alt="...">
+                        </div>
+                        <div class="col-10">
+                          <div class="card-body ps-4">
+                            <h5 class="card-title">Argentina Programa</h5>
+                            <p class="card-text mb-0">Desarrollo Web Full Stack</p>
+                            <p class="card-text mb-0"><small class="text-muted">feb. 2022 - ago. 2022</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-1"> 
+                    <div class="dropdown pt-2 edit">
+                      <button class="btn float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                      </ul>
+                    </div>
+                  
+                  </div>
+
+                </article>
+                <article class="row border-bottom m-lg-3">
+                  <div class="col-11">
+                    <div class="card mb-3 border-0" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-2">
+                          <img src="./Imagen/Int. Curuzú Cuatiá.jpg" class="img-fluid rounded-start pt-4" alt="...">
+                        </div>
+                        <div class="col-10">
+                          <div class="card-body ps-4">
+                            <h5 class="card-title">Intituto Superior de Curuzú Cuatiá</h5>
+                            <p class="card-text mb-0">Tecnico Superior Analista Programador</p>
+                            <p class="card-text mb-0"><small class="text-muted">2010 - 2012</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-1"> 
+                    <div class="dropdown pt-2 edit">
+                      <button class="btn float-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                      </ul>
+                    </div>
+                  
+                  </div>
+
+                </article>
               </div>
-            </div>
-            <div class="card mt-4" id="skills">
+            </section>
+            <section class="card mt-4" id="skills">
               <div class="card-body">
-                <h3 class="card-title">Skills</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, ea? Numquam quis earum officia sint dolorem, temporibus perspiciatis ipsam labore voluptate molestias, iste quidem cumque exercitationem fugiat id nemo alias?</span><span>In nihil eveniet ipsum eius corrupti. Magni quidem illo saepe laboriosam nostrum asperiores natus! Suscipit, accusamus, amet consequatur quas corrupti eligendi omnis unde, pariatur rem facere ut? Maiores, iusto harum!</span><span>Numquam eius ad quisquam itaque distinctio nesciunt corporis eligendi nam tempore exercitationem ullam qui animi eveniet, laboriosam ea, similique iste! Accusamus eius quo iure nemo accusantium cum. Voluptate, vel laudantium?</span><span>Suscipit iure repudiandae iste sint, blanditiis nostrum quidem dicta laborum sed! Dignissimos quas, enim porro explicabo aut nesciunt at ullam exercitationem est autem iste laborum vitae, natus officia quis corrupti.</span><span>Accusamus quod provident asperiores illum ab, culpa est officia quaerat harum facere eius cumque porro nisi nihil. Nisi optio eos, numquam quas fugiat nihil blanditiis, cum aperiam sint commodi ullam!</span><span>Doloremque adipisci quibusdam quidem quos amet pariatur nam, molestias in nostrum optio eius doloribus impedit vitae blanditiis natus provident, cum rem modi veniam qui! Fugit est nesciunt harum delectus veritatis?</span><span>Eius quis a, minima aliquid perspiciatis nisi earum officiis reprehenderit, molestias iure tenetur voluptate dicta animi? Fugit culpa, quidem natus animi odio porro vitae ex numquam saepe eligendi molestiae quas?</span><span>Doloremque necessitatibus consectetur iure rerum at unde alias vel, corrupti mollitia voluptatum error sint rem dolore amet, excepturi, repellendus accusamus aliquid autem aliquam. Quasi, blanditiis minima. Rerum officia cupiditate deserunt?</span><span>Sed, molestias qui architecto fuga illum placeat est iusto sunt? Unde fugit soluta laborum quibusdam nulla nemo, magni culpa eos explicabo praesentium deserunt voluptatibus, veniam consequuntur corrupti ab cum enim.</span><span>Rem omnis qui enim quibusdam veniam amet explicabo necessitatibus excepturi ducimus inventore nam aspernatur sapiente dolorem voluptate veritatis quae, voluptates odio dolorum, consequatur rerum a dolores magnam. Assumenda, ex harum.</span></p>
+                <h3 class="card-title">Skills <button type="button" class="btn btn-outline-success btn-sm ms-3 edit">Añadir skills</h3>
+                  <div class="content-skills m-lg-4">
+                  <div class="progress mt-4" style="height: 24px;">
+                    <div class="progress-bar align-items-start ps-3 bg-success" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                    <span class="porcentaje position-absolute">90%</span>
+                  </div>
+                  <div class="progress mt-3" style="height: 24px;">
+                    <div class="progress-bar align-items-start ps-3 bg-success" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                    <span class="porcentaje position-absolute">80%</span>
+                  </div>
+                  <div class="progress mt-3" style="height: 24px;">
+                    <div class="progress-bar align-items-start ps-3 bg-success" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                    <span class="porcentaje position-absolute">70%</span>
+                  </div>
+                  <div class="progress mt-3" style="height: 24px;">
+                    <div class="progress-bar align-items-start ps-3 bg-success" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Git</div>
+                    <span class="porcentaje position-absolute">60%</span>
+                  </div>
+                  <div class="progress mt-3" style="height: 24px;">
+                    <div class="progress-bar align-items-start ps-3 bg-success" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+                    <span class="porcentaje position-absolute">70%</span>
+                  </div>
+                  <div class="progress mt-3" style="height: 24px;">
+                    <div class="progress-bar align-items-start ps-3 bg-success" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MySQL</div>
+                    <span class="porcentaje position-absolute">20%</span>
+                  </div>
+                  </div>
               </div>
-            </div>
-            <div class="card mt-4 mb-4" id="proyectos">
+            </section>
+            <section class="card mt-4 mb-4" id="proyectos">
               <div class="card-body">
-                <h3 class="card-title">Proyectos</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae explicabo qui impedit quos culpa tenetur deserunt laboriosam? Quasi vero temporibus incidunt quia quam, cumque sapiente molestiae eius blanditiis cupiditate consequatur?</span><span>Itaque recusandae pariatur cum voluptate rerum officia, adipisci aliquam numquam laborum repellendus tenetur dicta modi asperiores cupiditate doloremque amet expedita facilis praesentium, sunt consequatur nisi. Eum quia ut omnis cum?</span><span>Adipisci deserunt delectus eveniet labore quasi consequatur facere minus suscipit nisi modi? Impedit libero nemo omnis sequi voluptates iusto eaque recusandae, est, voluptate iste accusantium sapiente, consequuntur natus cum distinctio?</span><span>Ad quo unde molestias quia, illum aliquid ipsum aliquam? Tempore placeat corporis reprehenderit consequatur sunt eos, itaque at numquam dicta minima odit minus, voluptas quae quos pariatur hic possimus quam!</span><span>Maxime similique adipisci iusto quos nobis consectetur numquam, sit eveniet vero obcaecati at libero dolor asperiores esse modi ab eos dolores voluptatem aliquid sequi blanditiis explicabo magni unde? Consequuntur, veniam?</span><span>Cum expedita voluptates facere quos nisi alias sapiente reiciendis laudantium. Unde, non doloremque impedit quibusdam consectetur maxime debitis eum molestiae cum dolorum sed repellendus id distinctio? Eligendi dolor autem illum.</span><span>Ad, excepturi dolores sint ab quae commodi impedit officia quis. Earum itaque amet tempore temporibus ab dolorem ipsam recusandae pariatur, omnis in sit blanditiis incidunt voluptatibus minus facilis exercitationem a.</span><span>Sint, illum. Perferendis, maiores quod. Illum, eum libero. Aliquid possimus, dolore placeat eius odio est, excepturi dolor accusantium nisi, beatae at fuga quas voluptas obcaecati atque quo. Cumque, esse ad.</span><span>Dolor accusamus consequatur obcaecati molestiae, quia tempora ex exercitationem voluptate optio earum? Laborum, quasi cupiditate! Alias adipisci commodi obcaecati aliquid molestias. Inventore velit commodi quos veritatis eos, temporibus pariatur itaque!</span><span>Hic eius et consectetur quod impedit quae perferendis praesentium laudantium voluptates nam, nostrum recusandae in tenetur, fugit quas quia facilis at. Iure nihil quidem est repellat! Nobis id ducimus sunt!</span></p>
+                <h3 class="card-title">Proyectos <button type="button" class="btn btn-outline-success btn-sm ms-3 edit">Añadir proyecto</button></h3>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-1 g-4 mt-3 m-xl-3">
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Imagen/proyectos-sociales.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyect Name</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-end footer-icons">
+                          <a class="ps-3 pe-2 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Demo" href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          <a class="ps-2 pe-3 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Repositorio GitHub" href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                          <div class="dropdown edit-proyectos">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-ellipsis-vertical"></i> Acciones
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Imagen/gestion-de-proyectos.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyect Name</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-end footer-icons">
+                          <a class="ps-3 pe-2 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Demo" href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          <a class="ps-2 pe-3 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Repositorio GitHub" href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                          <div class="dropdown edit-proyectos">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-ellipsis-vertical"></i> Acciones
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Imagen/banner-siete-pasos-gestion-proyectos.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyect Name</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        <div class="d-flex justify-content-end footer-icons">
+                          <a class="ps-3 pe-2 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Demo" href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          <a class="ps-2 pe-3 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Repositorio GitHub" href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                          <div class="dropdown edit-proyectos">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-ellipsis-vertical"></i> Acciones
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./Imagen/article-project-planning-project-design-2x.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyect Name</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-end footer-icons">
+                          <a class="ps-3 pe-2 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Demo" href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          <a class="ps-2 pe-3 fs-5 text-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Repositorio GitHub" href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                          <div class="dropdown edit-proyectos">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-ellipsis-vertical"></i> Acciones
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen-to-square"></i> Editar</a></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i> Eliminar</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </section>
           </div>
           <div class="col-12 col-xl-2">
             <ul class="nav nav-column flex-column sticky-top d-none d-xl-block">
